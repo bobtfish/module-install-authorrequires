@@ -3,6 +3,8 @@ use warnings;
 
 package Module::Install::AuthorRequires;
 
+require Module::Install::Base;
+
 # cargo cult
 BEGIN {
     our $VERSION = '0.01';
